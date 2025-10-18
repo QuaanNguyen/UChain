@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Wendy",
+    "aid": 1,
+    "did": 1,
+    "students": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "SCAI Advisor 1",
+    "aid": 2,
+    "did": 1,
+    "students": []
+  },
+  {
+    "name": "SCAI Advisor 2",
+    "aid": 3,
+    "did": 1,
+    "students": []
+  },
+  {
+    "name": "SCAI Advisor 3",
+    "aid": 4,
+    "did": 1,
+    "students": []
+  },
+  {
+    "name": "((SU) School 1 University) Dept 1 University Advisor 1",
+    "aid": 5,
+    "did": 2,
+    "students": [
+      3,
+      5
+    ]
+  },
+  {
+    "name": "((SU) School 1 University) Dept 1 University Advisor 2",
+    "aid": 6,
+    "did": 2,
+    "students": [
+      4
+    ]
+  },
+  {
+    "name": "((MIT) School 1 Institute) Dept 1 Tech Advisor 1",
+    "aid": 7,
+    "did": 3,
+    "students": [
+      6
+    ]
+  },
+  {
+    "name": "((MIT) School 1 Institute) Dept 1 Tech Advisor 2",
+    "aid": 8,
+    "did": 3,
+    "students": [
+      7
+    ]
+  },
+  {
+    "name": "((MIT) School 2 Academy) Dept 1 Academy Advisor 1",
+    "aid": 9,
+    "did": 4,
+    "students": [
+      8,
+      9
+    ]
+  }
+]

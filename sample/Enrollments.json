@@ -1,0 +1,1528 @@
+[
+  {
+    "eid": 1,
+    "sid": 1,
+    "cid": 2,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 2,
+    "sid": 1,
+    "cid": 243,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 3,
+    "sid": 1,
+    "cid": 5,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 4,
+    "sid": 1,
+    "cid": 70,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 5,
+    "sid": 1,
+    "cid": 144,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 6,
+    "sid": 1,
+    "cid": 287,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 7,
+    "sid": 1,
+    "cid": 251,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 8,
+    "sid": 1,
+    "cid": 75,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 9,
+    "sid": 1,
+    "cid": 113,
+    "grade": "F",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 10,
+    "sid": 1,
+    "cid": 146,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 11,
+    "sid": 1,
+    "cid": 221,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 12,
+    "sid": 1,
+    "cid": 294,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 13,
+    "sid": 1,
+    "cid": 117,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 14,
+    "sid": 1,
+    "cid": 261,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 15,
+    "sid": 1,
+    "cid": 227,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 16,
+    "sid": 1,
+    "cid": 83,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 17,
+    "sid": 1,
+    "cid": 123,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 18,
+    "sid": 1,
+    "cid": 343,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 19,
+    "sid": 1,
+    "cid": 88,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 20,
+    "sid": 1,
+    "cid": 347,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 21,
+    "sid": 1,
+    "cid": 170,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 22,
+    "sid": 1,
+    "cid": 356,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 23,
+    "sid": 2,
+    "cid": 68,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 24,
+    "sid": 2,
+    "cid": 248,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 25,
+    "sid": 2,
+    "cid": 5,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 26,
+    "sid": 2,
+    "cid": 282,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 27,
+    "sid": 2,
+    "cid": 144,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 28,
+    "sid": 2,
+    "cid": 10,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 29,
+    "sid": 2,
+    "cid": 44,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 30,
+    "sid": 2,
+    "cid": 11,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 31,
+    "sid": 2,
+    "cid": 76,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 32,
+    "sid": 2,
+    "cid": 257,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 33,
+    "sid": 2,
+    "cid": 333,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 34,
+    "sid": 2,
+    "cid": 223,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 35,
+    "sid": 2,
+    "cid": 52,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 36,
+    "sid": 2,
+    "cid": 85,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 37,
+    "sid": 2,
+    "cid": 229,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 38,
+    "sid": 2,
+    "cid": 341,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 39,
+    "sid": 2,
+    "cid": 26,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 40,
+    "sid": 2,
+    "cid": 347,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 41,
+    "sid": 2,
+    "cid": 30,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 42,
+    "sid": 2,
+    "cid": 238,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 43,
+    "sid": 2,
+    "cid": 205,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 44,
+    "sid": 2,
+    "cid": 134,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 45,
+    "sid": 2,
+    "cid": 34,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 46,
+    "sid": 3,
+    "cid": 1,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 47,
+    "sid": 3,
+    "cid": 2,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 48,
+    "sid": 3,
+    "cid": 243,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 49,
+    "sid": 3,
+    "cid": 6,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 50,
+    "sid": 3,
+    "cid": 70,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 51,
+    "sid": 3,
+    "cid": 286,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 52,
+    "sid": 3,
+    "cid": 289,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 53,
+    "sid": 3,
+    "cid": 188,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 54,
+    "sid": 3,
+    "cid": 294,
+    "grade": "F",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 55,
+    "sid": 3,
+    "cid": 293,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 56,
+    "sid": 3,
+    "cid": 261,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 57,
+    "sid": 3,
+    "cid": 49,
+    "grade": "F",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 58,
+    "sid": 3,
+    "cid": 84,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 59,
+    "sid": 3,
+    "cid": 23,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 60,
+    "sid": 3,
+    "cid": 89,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 61,
+    "sid": 3,
+    "cid": 26,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 62,
+    "sid": 3,
+    "cid": 345,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 63,
+    "sid": 3,
+    "cid": 61,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 64,
+    "sid": 3,
+    "cid": 168,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 65,
+    "sid": 3,
+    "cid": 352,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 66,
+    "sid": 3,
+    "cid": 134,
+    "grade": "F",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 67,
+    "sid": 3,
+    "cid": 278,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 68,
+    "sid": 3,
+    "cid": 64,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 69,
+    "sid": 4,
+    "cid": 1,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 70,
+    "sid": 4,
+    "cid": 248,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 71,
+    "sid": 4,
+    "cid": 109,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 72,
+    "sid": 4,
+    "cid": 253,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 73,
+    "sid": 4,
+    "cid": 10,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 74,
+    "sid": 4,
+    "cid": 146,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 75,
+    "sid": 4,
+    "cid": 187,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 76,
+    "sid": 4,
+    "cid": 257,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 77,
+    "sid": 4,
+    "cid": 186,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 78,
+    "sid": 4,
+    "cid": 119,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 79,
+    "sid": 4,
+    "cid": 297,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 80,
+    "sid": 4,
+    "cid": 51,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 81,
+    "sid": 4,
+    "cid": 305,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 82,
+    "sid": 4,
+    "cid": 86,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 83,
+    "sid": 4,
+    "cid": 342,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 84,
+    "sid": 4,
+    "cid": 164,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 85,
+    "sid": 4,
+    "cid": 26,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 86,
+    "sid": 4,
+    "cid": 309,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 87,
+    "sid": 4,
+    "cid": 235,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 88,
+    "sid": 4,
+    "cid": 28,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 89,
+    "sid": 4,
+    "cid": 352,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 90,
+    "sid": 4,
+    "cid": 239,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 91,
+    "sid": 4,
+    "cid": 274,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 92,
+    "sid": 4,
+    "cid": 135,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 93,
+    "sid": 5,
+    "cid": 68,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 94,
+    "sid": 5,
+    "cid": 1,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 95,
+    "sid": 5,
+    "cid": 178,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 96,
+    "sid": 5,
+    "cid": 180,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 97,
+    "sid": 5,
+    "cid": 105,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 98,
+    "sid": 5,
+    "cid": 38,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 99,
+    "sid": 5,
+    "cid": 71,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 100,
+    "sid": 5,
+    "cid": 9,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 101,
+    "sid": 5,
+    "cid": 144,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 102,
+    "sid": 5,
+    "cid": 146,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 103,
+    "sid": 5,
+    "cid": 216,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 104,
+    "sid": 5,
+    "cid": 45,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 105,
+    "sid": 5,
+    "cid": 149,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 106,
+    "sid": 5,
+    "cid": 151,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 107,
+    "sid": 5,
+    "cid": 16,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 108,
+    "sid": 5,
+    "cid": 15,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 109,
+    "sid": 5,
+    "cid": 337,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 110,
+    "sid": 5,
+    "cid": 53,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 111,
+    "sid": 5,
+    "cid": 18,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 112,
+    "sid": 5,
+    "cid": 50,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 113,
+    "sid": 5,
+    "cid": 306,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 114,
+    "sid": 5,
+    "cid": 194,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 115,
+    "sid": 5,
+    "cid": 90,
+    "grade": "F",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 116,
+    "sid": 5,
+    "cid": 27,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 117,
+    "sid": 5,
+    "cid": 269,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 118,
+    "sid": 5,
+    "cid": 198,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 119,
+    "sid": 5,
+    "cid": 91,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 120,
+    "sid": 5,
+    "cid": 200,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 121,
+    "sid": 5,
+    "cid": 31,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 122,
+    "sid": 5,
+    "cid": 136,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 123,
+    "sid": 5,
+    "cid": 135,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 124,
+    "sid": 6,
+    "cid": 66,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 125,
+    "sid": 6,
+    "cid": 318,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 126,
+    "sid": 6,
+    "cid": 4,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 127,
+    "sid": 6,
+    "cid": 324,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 128,
+    "sid": 6,
+    "cid": 39,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 129,
+    "sid": 6,
+    "cid": 287,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 130,
+    "sid": 6,
+    "cid": 144,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 131,
+    "sid": 6,
+    "cid": 256,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 132,
+    "sid": 6,
+    "cid": 75,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 133,
+    "sid": 6,
+    "cid": 258,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 134,
+    "sid": 6,
+    "cid": 17,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 135,
+    "sid": 6,
+    "cid": 117,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 136,
+    "sid": 6,
+    "cid": 297,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 137,
+    "sid": 6,
+    "cid": 51,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 138,
+    "sid": 6,
+    "cid": 226,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 139,
+    "sid": 6,
+    "cid": 158,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 140,
+    "sid": 6,
+    "cid": 306,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 141,
+    "sid": 6,
+    "cid": 27,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 142,
+    "sid": 6,
+    "cid": 163,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 143,
+    "sid": 6,
+    "cid": 269,
+    "grade": "F",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 144,
+    "sid": 6,
+    "cid": 28,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 145,
+    "sid": 6,
+    "cid": 200,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 146,
+    "sid": 6,
+    "cid": 171,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 147,
+    "sid": 6,
+    "cid": 134,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 148,
+    "sid": 6,
+    "cid": 137,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 149,
+    "sid": 6,
+    "cid": 174,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 150,
+    "sid": 7,
+    "cid": 176,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 151,
+    "sid": 7,
+    "cid": 178,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 152,
+    "sid": 7,
+    "cid": 322,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 153,
+    "sid": 7,
+    "cid": 8,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 154,
+    "sid": 7,
+    "cid": 10,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 155,
+    "sid": 7,
+    "cid": 149,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 156,
+    "sid": 7,
+    "cid": 331,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 157,
+    "sid": 7,
+    "cid": 223,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 158,
+    "sid": 7,
+    "cid": 222,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 159,
+    "sid": 7,
+    "cid": 20,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 160,
+    "sid": 7,
+    "cid": 300,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 161,
+    "sid": 7,
+    "cid": 21,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 162,
+    "sid": 7,
+    "cid": 22,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 163,
+    "sid": 7,
+    "cid": 57,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 164,
+    "sid": 7,
+    "cid": 268,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 165,
+    "sid": 7,
+    "cid": 273,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 166,
+    "sid": 7,
+    "cid": 32,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 167,
+    "sid": 7,
+    "cid": 97,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 168,
+    "sid": 7,
+    "cid": 205,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 169,
+    "sid": 7,
+    "cid": 314,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 170,
+    "sid": 7,
+    "cid": 277,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 171,
+    "sid": 8,
+    "cid": 176,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 172,
+    "sid": 8,
+    "cid": 179,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 173,
+    "sid": 8,
+    "cid": 282,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 174,
+    "sid": 8,
+    "cid": 285,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 175,
+    "sid": 8,
+    "cid": 109,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 176,
+    "sid": 8,
+    "cid": 145,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 177,
+    "sid": 8,
+    "cid": 10,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 178,
+    "sid": 8,
+    "cid": 296,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 179,
+    "sid": 8,
+    "cid": 45,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 180,
+    "sid": 8,
+    "cid": 333,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 181,
+    "sid": 8,
+    "cid": 48,
+    "grade": "C",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 182,
+    "sid": 8,
+    "cid": 80,
+    "grade": "A",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 183,
+    "sid": 8,
+    "cid": 21,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 184,
+    "sid": 8,
+    "cid": 23,
+    "grade": "C",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 185,
+    "sid": 8,
+    "cid": 161,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 186,
+    "sid": 8,
+    "cid": 58,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 187,
+    "sid": 8,
+    "cid": 26,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 188,
+    "sid": 8,
+    "cid": 198,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 189,
+    "sid": 8,
+    "cid": 168,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 190,
+    "sid": 8,
+    "cid": 96,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 191,
+    "sid": 8,
+    "cid": 317,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 192,
+    "sid": 8,
+    "cid": 33,
+    "grade": "A",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 193,
+    "sid": 8,
+    "cid": 240,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 194,
+    "sid": 9,
+    "cid": 35,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 195,
+    "sid": 9,
+    "cid": 279,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 196,
+    "sid": 9,
+    "cid": 7,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 197,
+    "sid": 9,
+    "cid": 211,
+    "grade": "F",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 198,
+    "sid": 9,
+    "cid": 322,
+    "grade": "B",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 199,
+    "sid": 9,
+    "cid": 108,
+    "grade": "D",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 200,
+    "sid": 9,
+    "cid": 328,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 201,
+    "sid": 9,
+    "cid": 215,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 202,
+    "sid": 9,
+    "cid": 43,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 203,
+    "sid": 9,
+    "cid": 291,
+    "grade": "D",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 204,
+    "sid": 9,
+    "cid": 77,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 205,
+    "sid": 9,
+    "cid": 296,
+    "grade": "D",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 206,
+    "sid": 9,
+    "cid": 14,
+    "grade": "C",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 207,
+    "sid": 9,
+    "cid": 335,
+    "grade": "A",
+    "status": "Completed-Withdrawn"
+  },
+  {
+    "eid": 208,
+    "sid": 9,
+    "cid": 83,
+    "grade": "B",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 209,
+    "sid": 9,
+    "cid": 156,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 210,
+    "sid": 9,
+    "cid": 342,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 211,
+    "sid": 9,
+    "cid": 25,
+    "grade": "B",
+    "status": "Completed-Dropped"
+  },
+  {
+    "eid": 212,
+    "sid": 9,
+    "cid": 267,
+    "grade": "F",
+    "status": "Completed-Passed"
+  },
+  {
+    "eid": 213,
+    "sid": 9,
+    "cid": 93,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 214,
+    "sid": 9,
+    "cid": 348,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 215,
+    "sid": 9,
+    "cid": 60,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 216,
+    "sid": 9,
+    "cid": 313,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 217,
+    "sid": 9,
+    "cid": 238,
+    "grade": "NG",
+    "status": "Enrolled"
+  },
+  {
+    "eid": 218,
+    "sid": 9,
+    "cid": 33,
+    "grade": "B",
+    "status": "Completed-Passed"
+  }
+]
