@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Blockchain Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎓 University Blockchain Management Dashboard</h1>
+  </header>
+
+  <main>
+    <!-- Blockchain Status -->
+    <section id="blockchain-section">
+      <h2>🔗 Blockchain Data</h2>
+      <button id="fetchBlocksBtn">View Blockchain Blocks</button>
+      <div id="blockchainTable"></div>
+    </section>
+
+    <!-- Database Section -->
+    <section id="database-section">
+      <h2>🗄️ Database (MongoDB)</h2>
+      <div class="actions">
+        <button id="fetchFeesBtn">Show Fee Table</button>
+        <button id="createTableBtn">Create New Table</button>
+        <input type="file" id="csvFile" accept=".csv">
+        <button id="uploadCsvBtn">Import CSV</button>
+      </div>
+      <div id="databaseTables"></div>
+    </section>
+
+    <!-- Add Data -->
+    <section id="add-section">
+      <h2>💰 Add Fee (Blockchain)</h2>
+      <form id="feeForm">
+        <input type="text" id="studentId" placeholder="Student ID" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <button type="submit">Add Fee</button>
+      </form>
+      <div id="feeResult"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed with ❤️ using Node.js, MongoDB & Ethereum Blockchain</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
