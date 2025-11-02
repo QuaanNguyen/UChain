@@ -1,0 +1,30 @@
+[
+  {
+    "name": "FSE",
+    "sid": 1,
+    "departments": [
+      1
+    ]
+  },
+  {
+    "name": "(SU) School 1 University",
+    "sid": 2,
+    "departments": [
+      2
+    ]
+  },
+  {
+    "name": "(MIT) School 1 Institute",
+    "sid": 3,
+    "departments": [
+      3
+    ]
+  },
+  {
+    "name": "(MIT) School 2 Academy",
+    "sid": 4,
+    "departments": [
+      4
+    ]
+  }
+]
