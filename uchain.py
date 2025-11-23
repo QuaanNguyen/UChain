@@ -127,6 +127,9 @@ def getBlock(db, eid):
 # -------------------------------------------------------------------------
 
 def query_grade_distribution(db):
+    print("="*70)
+    print("Grade Dist.")
+    print("="*70)
     pipeline = [
         {"$project": {"eid": 1, "grade": 1, "grade_key": 1}}
     ]
@@ -137,9 +140,6 @@ def query_grade_distribution(db):
             counts[grade] = counts.get(grade, 0) + 1
         except:
             pass
-    print("="*70)
-    print("GRADE DISTRIBUTION (DECRYPTED ON THE FLY)")
-    print("="*70)
     for g, c in counts.items():
         print(f"{g}: {c}")
 
@@ -223,7 +223,7 @@ def query_2_students_sharing_professors():
 
 def query_3_rida_classes():
     print("="*70)
-    print("3. ALL CLASSES TAUGHT BY PROFESSOR RIDA")
+    print("3. All Rida Classes.")
     print("="*70)
 
     rida = db.professors.find_one({"firstName": "Rida"})
@@ -257,7 +257,7 @@ if __name__ == "__main__":
     #setup_vertical_fragmentation(db)
 
     query_1_students_per_university()
-    query_2_students_sharing_professors()
+    #query_2_students_sharing_professors()
     query_3_rida_classes()
     query_grade_distribution(db)
 
