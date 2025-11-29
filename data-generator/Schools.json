@@ -1,0 +1,242 @@
+[
+  {
+    "name": "FSE",
+    "sid": 1,
+    "departments": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "(ASU) School 2 Academy",
+    "sid": 2,
+    "departments": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "name": "(ASU) School 3 University",
+    "sid": 3,
+    "departments": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "(SU) School 1 Tech",
+    "sid": 4,
+    "departments": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "name": "(SU) School 2 Institute",
+    "sid": 5,
+    "departments": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "name": "(SU) School 3 Institute",
+    "sid": 6,
+    "departments": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "name": "(SU) School 4 Institute",
+    "sid": 7,
+    "departments": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "name": "(MIT) School 1 Tech",
+    "sid": 8,
+    "departments": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "name": "(MIT) School 2 College",
+    "sid": 9,
+    "departments": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "name": "(MIT) School 3 College",
+    "sid": 10,
+    "departments": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "(MIT) School 4 Academy",
+    "sid": 11,
+    "departments": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "name": "(MIT) School 5 University",
+    "sid": 12,
+    "departments": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "name": "(MIT) School 6 College",
+    "sid": 13,
+    "departments": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "name": "(University 4 University) School 1 Tech",
+    "sid": 14,
+    "departments": [
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "name": "(University 4 University) School 2 College",
+    "sid": 15,
+    "departments": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "name": "(University 4 University) School 3 University",
+    "sid": 16,
+    "departments": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "name": "(University 4 University) School 4 University",
+    "sid": 17,
+    "departments": [
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "name": "(University 4 University) School 5 College",
+    "sid": 18,
+    "departments": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "name": "(University 5 College) School 1 Academy",
+    "sid": 19,
+    "departments": [
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "name": "(University 5 College) School 2 Institute",
+    "sid": 20,
+    "departments": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "name": "(University 5 College) School 3 Academy",
+    "sid": 21,
+    "departments": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "name": "(University 5 College) School 4 College",
+    "sid": 22,
+    "departments": [
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "name": "(University 5 College) School 5 Tech",
+    "sid": 23,
+    "departments": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "name": "(University 5 College) School 6 University",
+    "sid": 24,
+    "departments": [
+      93,
+      94,
+      95,
+      96
+    ]
+  }
+]

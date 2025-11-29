@@ -23,11 +23,20 @@
     <section id="database-section">
       <h2>🗄️ Database (MongoDB)</h2>
       <div class="actions">
+
         <button id="fetchFeesBtn">Show Fee Table</button>
         <button id="createTableBtn">Create New Table</button>
+
         <input type="file" id="csvFile" accept=".csv">
         <button id="uploadCsvBtn">Import CSV</button>
+
+        <!-- ✅ Added Button (Your Request) -->
+        <button onclick="window.location.href='enrollments.html'">
+          📘 View Enrollments (Grades & Status)
+        </button>
+
       </div>
+
       <div id="databaseTables"></div>
     </section>
 

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enrollment Records (Grades + Status)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f7fb;
+    }
+    h2 { margin-bottom: 10px; }
+    #status {
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+    button {
+      padding: 10px 16px;
+      background: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+    button:hover { background: #3730a3; }
+    #uploadStatus {
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #222;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    th, td {
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      font-size: 14px;
+      text-align: left;
+    }
+    th {
+      background: #4f46e5;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    tr:nth-child(even) { background: #f9fafb; }
+  </style>
+</head>
+
+<body>
+
+  <h2>Enrollment Records (Grades + Status)</h2>
+
+  <!-- BUTTON ADDED -->
+  <button id="pushEnrollmentsBtn">🚀 Push All Enrollments to Blockchain</button>
+
+  <p id="uploadStatus"></p>
+
+  <div id="status">Loading data... ⏳</div>
+
+  <table id="table"></table>
+
+  <script>
+    // -------------------------------------
+    // ALWAYS use correct backend port 5050
+    // -------------------------------------
+    const BASE_API = "http://localhost:5050";
+
+    const statusEl = document.getElementById("status");
+    const table = document.getElementById("table");
+    const uploadStatus = document.getElementById("uploadStatus");
+
+    // -----------------------------------------------------
+    // LOAD ENROLLMENTS
+    // -----------------------------------------------------
+    fetch(`${BASE_API}/api/enrollments`)
+      .then(res => {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(body => {
+        if (!body.success) throw new Error(body.error || "API error");
+
+        const data = body.data;
+
+        statusEl.textContent = `Loaded ${data.length} enrollments ✅`;
+
+        table.innerHTML = `
+          <tr>
+            <th>Student ID</th>
+            <th>Class ID</th>
+            <th>Grade</th>
+            <th>Status</th>
+            <th>Block Hash (eidHash)</th>
+          </tr>
+        `;
+
+        data.forEach(e => {
+          table.innerHTML += `
+            <tr>
+              <td>${e.sid}</td>
+              <td>${e.cid}</td>
+              <td>${e.grade}</td>
+              <td>${e.status}</td>
+              <td>${e.eidHash ? "✔️ " + e.eidHash : "❌ Not on blockchain yet"}</td>
+            </tr>
+          `;
+        });
+      })
+      .catch(err => {
+        statusEl.textContent = "⚠️ Failed to load data: " + err.message;
+      });
+
+    // -----------------------------------------------------
+    // PUSH ALL ENROLLMENTS TO BLOCKCHAIN
+    // -----------------------------------------------------
+    document.getElementById("pushEnrollmentsBtn").onclick = async () => {
+      uploadStatus.textContent = "⏳ Uploading enrollments to blockchain...";
+
+      try {
+        const res = await fetch(`${BASE_API}/api/enrollments/push-to-blockchain`, {
+          method: "POST"
+        });
+
+        const data = await res.json();
+
+        if (data.success) {
+          uploadStatus.textContent =
+            `✔️ Uploaded ${data.count} enrollments to blockchain. Reloading...`;
+
+          setTimeout(() => location.reload(), 1500);
+        } else {
+          uploadStatus.textContent = "❌ Error: " + (data.error || "Failed");
+        }
+
+      } catch (err) {
+        uploadStatus.textContent = "❌ Network or server error.";
+      }
+    };
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,386 @@
+[
+  {
+    "name": "SCAI",
+    "did": 1
+  },
+  {
+    "name": "(FSE) Dept 2 Academy",
+    "did": 2
+  },
+  {
+    "name": "((ASU) School 2 Academy) Dept 1 Tech",
+    "did": 3
+  },
+  {
+    "name": "((ASU) School 2 Academy) Dept 2 College",
+    "did": 4
+  },
+  {
+    "name": "((ASU) School 2 Academy) Dept 3 Institute",
+    "did": 5
+  },
+  {
+    "name": "((ASU) School 2 Academy) Dept 4 Tech",
+    "did": 6
+  },
+  {
+    "name": "((ASU) School 3 University) Dept 1 Institute",
+    "did": 7
+  },
+  {
+    "name": "((ASU) School 3 University) Dept 2 Tech",
+    "did": 8
+  },
+  {
+    "name": "((ASU) School 3 University) Dept 3 Tech",
+    "did": 9
+  },
+  {
+    "name": "((ASU) School 3 University) Dept 4 College",
+    "did": 10
+  },
+  {
+    "name": "((SU) School 1 Tech) Dept 1 University",
+    "did": 11
+  },
+  {
+    "name": "((SU) School 1 Tech) Dept 2 University",
+    "did": 12
+  },
+  {
+    "name": "((SU) School 1 Tech) Dept 3 University",
+    "did": 13
+  },
+  {
+    "name": "((SU) School 1 Tech) Dept 4 Academy",
+    "did": 14
+  },
+  {
+    "name": "((SU) School 1 Tech) Dept 5 Tech",
+    "did": 15
+  },
+  {
+    "name": "((SU) School 2 Institute) Dept 1 Academy",
+    "did": 16
+  },
+  {
+    "name": "((SU) School 2 Institute) Dept 2 College",
+    "did": 17
+  },
+  {
+    "name": "((SU) School 2 Institute) Dept 3 College",
+    "did": 18
+  },
+  {
+    "name": "((SU) School 3 Institute) Dept 1 Institute",
+    "did": 19
+  },
+  {
+    "name": "((SU) School 3 Institute) Dept 2 Academy",
+    "did": 20
+  },
+  {
+    "name": "((SU) School 3 Institute) Dept 3 Tech",
+    "did": 21
+  },
+  {
+    "name": "((SU) School 3 Institute) Dept 4 University",
+    "did": 22
+  },
+  {
+    "name": "((SU) School 3 Institute) Dept 5 Academy",
+    "did": 23
+  },
+  {
+    "name": "((SU) School 4 Institute) Dept 1 Tech",
+    "did": 24
+  },
+  {
+    "name": "((SU) School 4 Institute) Dept 2 Tech",
+    "did": 25
+  },
+  {
+    "name": "((SU) School 4 Institute) Dept 3 Institute",
+    "did": 26
+  },
+  {
+    "name": "((MIT) School 1 Tech) Dept 1 Academy",
+    "did": 27
+  },
+  {
+    "name": "((MIT) School 1 Tech) Dept 2 Academy",
+    "did": 28
+  },
+  {
+    "name": "((MIT) School 1 Tech) Dept 3 Tech",
+    "did": 29
+  },
+  {
+    "name": "((MIT) School 1 Tech) Dept 4 College",
+    "did": 30
+  },
+  {
+    "name": "((MIT) School 1 Tech) Dept 5 Academy",
+    "did": 31
+  },
+  {
+    "name": "((MIT) School 2 College) Dept 1 University",
+    "did": 32
+  },
+  {
+    "name": "((MIT) School 2 College) Dept 2 College",
+    "did": 33
+  },
+  {
+    "name": "((MIT) School 2 College) Dept 3 Institute",
+    "did": 34
+  },
+  {
+    "name": "((MIT) School 2 College) Dept 4 Institute",
+    "did": 35
+  },
+  {
+    "name": "((MIT) School 2 College) Dept 5 Tech",
+    "did": 36
+  },
+  {
+    "name": "((MIT) School 3 College) Dept 1 University",
+    "did": 37
+  },
+  {
+    "name": "((MIT) School 3 College) Dept 2 Tech",
+    "did": 38
+  },
+  {
+    "name": "((MIT) School 3 College) Dept 3 Academy",
+    "did": 39
+  },
+  {
+    "name": "((MIT) School 3 College) Dept 4 College",
+    "did": 40
+  },
+  {
+    "name": "((MIT) School 3 College) Dept 5 Institute",
+    "did": 41
+  },
+  {
+    "name": "((MIT) School 4 Academy) Dept 1 Institute",
+    "did": 42
+  },
+  {
+    "name": "((MIT) School 4 Academy) Dept 2 College",
+    "did": 43
+  },
+  {
+    "name": "((MIT) School 4 Academy) Dept 3 University",
+    "did": 44
+  },
+  {
+    "name": "((MIT) School 4 Academy) Dept 4 College",
+    "did": 45
+  },
+  {
+    "name": "((MIT) School 5 University) Dept 1 Tech",
+    "did": 46
+  },
+  {
+    "name": "((MIT) School 5 University) Dept 2 Tech",
+    "did": 47
+  },
+  {
+    "name": "((MIT) School 5 University) Dept 3 College",
+    "did": 48
+  },
+  {
+    "name": "((MIT) School 5 University) Dept 4 Institute",
+    "did": 49
+  },
+  {
+    "name": "((MIT) School 6 College) Dept 1 Academy",
+    "did": 50
+  },
+  {
+    "name": "((MIT) School 6 College) Dept 2 Tech",
+    "did": 51
+  },
+  {
+    "name": "((MIT) School 6 College) Dept 3 University",
+    "did": 52
+  },
+  {
+    "name": "((MIT) School 6 College) Dept 4 College",
+    "did": 53
+  },
+  {
+    "name": "((MIT) School 6 College) Dept 5 College",
+    "did": 54
+  },
+  {
+    "name": "((University 4 University) School 1 Tech) Dept 1 Academy",
+    "did": 55
+  },
+  {
+    "name": "((University 4 University) School 1 Tech) Dept 2 Tech",
+    "did": 56
+  },
+  {
+    "name": "((University 4 University) School 1 Tech) Dept 3 College",
+    "did": 57
+  },
+  {
+    "name": "((University 4 University) School 1 Tech) Dept 4 College",
+    "did": 58
+  },
+  {
+    "name": "((University 4 University) School 1 Tech) Dept 5 Institute",
+    "did": 59
+  },
+  {
+    "name": "((University 4 University) School 2 College) Dept 1 Institute",
+    "did": 60
+  },
+  {
+    "name": "((University 4 University) School 2 College) Dept 2 College",
+    "did": 61
+  },
+  {
+    "name": "((University 4 University) School 2 College) Dept 3 University",
+    "did": 62
+  },
+  {
+    "name": "((University 4 University) School 3 University) Dept 1 Academy",
+    "did": 63
+  },
+  {
+    "name": "((University 4 University) School 3 University) Dept 2 University",
+    "did": 64
+  },
+  {
+    "name": "((University 4 University) School 3 University) Dept 3 Institute",
+    "did": 65
+  },
+  {
+    "name": "((University 4 University) School 4 University) Dept 1 College",
+    "did": 66
+  },
+  {
+    "name": "((University 4 University) School 4 University) Dept 2 College",
+    "did": 67
+  },
+  {
+    "name": "((University 4 University) School 4 University) Dept 3 Academy",
+    "did": 68
+  },
+  {
+    "name": "((University 4 University) School 4 University) Dept 4 Academy",
+    "did": 69
+  },
+  {
+    "name": "((University 4 University) School 5 College) Dept 1 Academy",
+    "did": 70
+  },
+  {
+    "name": "((University 4 University) School 5 College) Dept 2 College",
+    "did": 71
+  },
+  {
+    "name": "((University 4 University) School 5 College) Dept 3 Tech",
+    "did": 72
+  },
+  {
+    "name": "((University 5 College) School 1 Academy) Dept 1 University",
+    "did": 73
+  },
+  {
+    "name": "((University 5 College) School 1 Academy) Dept 2 University",
+    "did": 74
+  },
+  {
+    "name": "((University 5 College) School 1 Academy) Dept 3 College",
+    "did": 75
+  },
+  {
+    "name": "((University 5 College) School 1 Academy) Dept 4 Academy",
+    "did": 76
+  },
+  {
+    "name": "((University 5 College) School 2 Institute) Dept 1 Academy",
+    "did": 77
+  },
+  {
+    "name": "((University 5 College) School 2 Institute) Dept 2 Institute",
+    "did": 78
+  },
+  {
+    "name": "((University 5 College) School 2 Institute) Dept 3 Tech",
+    "did": 79
+  },
+  {
+    "name": "((University 5 College) School 2 Institute) Dept 4 Institute",
+    "did": 80
+  },
+  {
+    "name": "((University 5 College) School 2 Institute) Dept 5 Institute",
+    "did": 81
+  },
+  {
+    "name": "((University 5 College) School 3 Academy) Dept 1 College",
+    "did": 82
+  },
+  {
+    "name": "((University 5 College) School 3 Academy) Dept 2 University",
+    "did": 83
+  },
+  {
+    "name": "((University 5 College) School 3 Academy) Dept 3 College",
+    "did": 84
+  },
+  {
+    "name": "((University 5 College) School 4 College) Dept 1 College",
+    "did": 85
+  },
+  {
+    "name": "((University 5 College) School 4 College) Dept 2 Institute",
+    "did": 86
+  },
+  {
+    "name": "((University 5 College) School 4 College) Dept 3 Tech",
+    "did": 87
+  },
+  {
+    "name": "((University 5 College) School 5 Tech) Dept 1 College",
+    "did": 88
+  },
+  {
+    "name": "((University 5 College) School 5 Tech) Dept 2 Academy",
+    "did": 89
+  },
+  {
+    "name": "((University 5 College) School 5 Tech) Dept 3 Academy",
+    "did": 90
+  },
+  {
+    "name": "((University 5 College) School 5 Tech) Dept 4 Academy",
+    "did": 91
+  },
+  {
+    "name": "((University 5 College) School 5 Tech) Dept 5 Tech",
+    "did": 92
+  },
+  {
+    "name": "((University 5 College) School 6 University) Dept 1 Tech",
+    "did": 93
+  },
+  {
+    "name": "((University 5 College) School 6 University) Dept 2 Academy",
+    "did": 94
+  },
+  {
+    "name": "((University 5 College) School 6 University) Dept 3 Tech",
+    "did": 95
+  },
+  {
+    "name": "((University 5 College) School 6 University) Dept 4 College",
+    "did": 96
+  }
+]

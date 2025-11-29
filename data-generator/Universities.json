@@ -1,0 +1,56 @@
+[
+  {
+    "name": "ASU",
+    "uid": 1,
+    "schools": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "SU",
+    "uid": 2,
+    "schools": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "name": "MIT",
+    "uid": 3,
+    "schools": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "name": "University 4 University",
+    "uid": 4,
+    "schools": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "name": "University 5 College",
+    "uid": 5,
+    "schools": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
