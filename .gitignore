@@ -209,3 +209,6 @@ __marimo__/
 
 # Specific files
 app.py
+data-generator/Students.json
+data-generator/Enrollments.json
+
