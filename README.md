@@ -75,8 +75,11 @@ PORT=5050
 
 ### 4. Setup Blockchain
 
-1. Start Ganache on `http://127.0.0.1:8545`
-2. Deploy the contract:
+1. Start Ganache on `http://127.0.0.1:8545`, sample cmd:
+   ```bash
+   npx ganache --port 8545 --quiet --miner.blockGasLimit 100000000              
+   ```
+3. Deploy the contract:
    ```bash
    node scripts/migrate_enrollments.js
    ```
