@@ -1,0 +1,383 @@
+[
+  {
+    "firstName": "Florence",
+    "lastName": "Ellington",
+    "pid": 1,
+    "did": 1,
+    "email": "florenceellington1@asu.edu",
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "title": "Senior Professor, ScD"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Ellington",
+    "pid": 2,
+    "did": 2,
+    "email": "juliaellington2@su.edu",
+    "classes": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "title": "Tenured Professor, MS"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Fairchild",
+    "pid": 3,
+    "did": 2,
+    "email": "charlesfairchild3@su.edu",
+    "classes": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "title": "Associate Professor, ScD"
+  },
+  {
+    "firstName": "Helen",
+    "lastName": "Kingsley",
+    "pid": 4,
+    "did": 3,
+    "email": "helenkingsley4@su.edu",
+    "classes": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "title": "Tenured Professor, EdD"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Blackwell",
+    "pid": 5,
+    "did": 3,
+    "email": "charlesblackwell5@su.edu",
+    "classes": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "title": "Junior Professor, PhD"
+  },
+  {
+    "firstName": "Dorothy",
+    "lastName": "Jefferson",
+    "pid": 6,
+    "did": 3,
+    "email": "dorothyjefferson6@su.edu",
+    "classes": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "title": "Tenured Professor, MS"
+  },
+  {
+    "firstName": "Dorothy",
+    "lastName": "Ellington",
+    "pid": 7,
+    "did": 4,
+    "email": "dorothyellington7@su.edu",
+    "classes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "title": "Professor, MS"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Harrington",
+    "pid": 8,
+    "did": 4,
+    "email": "juliaharrington8@su.edu",
+    "classes": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "title": "Senior Professor, ScD"
+  },
+  {
+    "firstName": "Helen",
+    "lastName": "Kingsley",
+    "pid": 9,
+    "did": 5,
+    "email": "helenkingsley9@su.edu",
+    "classes": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "title": "Tenured Professor, PhD"
+  },
+  {
+    "firstName": "Beatrice",
+    "lastName": "Cartwright",
+    "pid": 10,
+    "did": 6,
+    "email": "beatricecartwright10@su.edu",
+    "classes": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "title": "Senior Professor, EdD"
+  },
+  {
+    "firstName": "Florence",
+    "lastName": "Jefferson",
+    "pid": 11,
+    "did": 6,
+    "email": "florencejefferson11@su.edu",
+    "classes": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "title": "Junior Professor, MS"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Donovan",
+    "pid": 12,
+    "did": 6,
+    "email": "charlesdonovan12@su.edu",
+    "classes": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "title": "Senior Professor, ScD"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Ingram",
+    "pid": 13,
+    "did": 7,
+    "email": "juliaingram13@mit.edu",
+    "classes": [
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "title": "Senior Professor, PhD"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Cartwright",
+    "pid": 14,
+    "did": 7,
+    "email": "charlescartwright14@mit.edu",
+    "classes": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "title": "Professor, MS"
+  },
+  {
+    "firstName": "Beatrice",
+    "lastName": "Kingsley",
+    "pid": 15,
+    "did": 7,
+    "email": "beatricekingsley15@mit.edu",
+    "classes": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "title": "Senior Professor, EdD"
+  },
+  {
+    "firstName": "Edward",
+    "lastName": "Donovan",
+    "pid": 16,
+    "did": 8,
+    "email": "edwarddonovan16@mit.edu",
+    "classes": [
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "title": "Associate Professor, PhD"
+  },
+  {
+    "firstName": "Beatrice",
+    "lastName": "Grayson",
+    "pid": 17,
+    "did": 8,
+    "email": "beatricegrayson17@mit.edu",
+    "classes": [
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "title": "Professor, EdD"
+  },
+  {
+    "firstName": "Albert",
+    "lastName": "Jefferson",
+    "pid": 18,
+    "did": 8,
+    "email": "albertjefferson18@mit.edu",
+    "classes": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "title": "Associate Professor, PhD"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Harrington",
+    "pid": 19,
+    "did": 9,
+    "email": "charlesharrington19@mit.edu",
+    "classes": [
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "title": "Associate Professor, MS"
+  },
+  {
+    "firstName": "Edward",
+    "lastName": "Cartwright",
+    "pid": 20,
+    "did": 9,
+    "email": "edwardcartwright20@mit.edu",
+    "classes": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ],
+    "title": "Tenured Professor, PhD"
+  },
+  {
+    "firstName": "Helen",
+    "lastName": "Ellington",
+    "pid": 21,
+    "did": 9,
+    "email": "helenellington21@mit.edu",
+    "classes": [
+      119,
+      120,
+      121,
+      122
+    ],
+    "title": "Junior Professor, ScD"
+  },
+  {
+    "firstName": "Florence",
+    "lastName": "Jefferson",
+    "pid": 22,
+    "did": 10,
+    "email": "florencejefferson22@mit.edu",
+    "classes": [
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "title": "Senior Professor, PhD"
+  },
+  {
+    "firstName": "Albert",
+    "lastName": "Donovan",
+    "pid": 23,
+    "did": 11,
+    "email": "albertdonovan23@mit.edu",
+    "classes": [
+      131,
+      132,
+      133,
+      134,
+      135
+    ],
+    "title": "Senior Professor, MS"
+  },
+  {
+    "firstName": "Dorothy",
+    "lastName": "Jefferson",
+    "pid": 24,
+    "did": 11,
+    "email": "dorothyjefferson24@mit.edu",
+    "classes": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+    ],
+    "title": "Tenured Professor, ScD"
+  }
+]

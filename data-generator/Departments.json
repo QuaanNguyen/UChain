@@ -1,0 +1,46 @@
+[
+  {
+    "name": "SCAI",
+    "did": 1
+  },
+  {
+    "name": "((SU) School 1 Institute) Dept 1 University",
+    "did": 2
+  },
+  {
+    "name": "((SU) School 1 Institute) Dept 2 Tech",
+    "did": 3
+  },
+  {
+    "name": "((SU) School 2 Tech) Dept 1 College",
+    "did": 4
+  },
+  {
+    "name": "((SU) School 2 Tech) Dept 2 University",
+    "did": 5
+  },
+  {
+    "name": "((SU) School 2 Tech) Dept 3 College",
+    "did": 6
+  },
+  {
+    "name": "((MIT) School 1 Institute) Dept 1 Academy",
+    "did": 7
+  },
+  {
+    "name": "((MIT) School 1 Institute) Dept 2 University",
+    "did": 8
+  },
+  {
+    "name": "((MIT) School 1 Institute) Dept 3 Academy",
+    "did": 9
+  },
+  {
+    "name": "((MIT) School 2 Academy) Dept 1 Tech",
+    "did": 10
+  },
+  {
+    "name": "((MIT) School 2 Academy) Dept 2 Institute",
+    "did": 11
+  }
+]

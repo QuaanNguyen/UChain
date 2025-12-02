@@ -1,0 +1,1271 @@
+[
+  {
+    "cid": 1,
+    "name": "Web Development",
+    "pid": 1,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "CDL 270",
+    "semester": "F25"
+  },
+  {
+    "cid": 2,
+    "name": "Software Engineering",
+    "pid": 1,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "CDL 342",
+    "semester": "F25"
+  },
+  {
+    "cid": 3,
+    "name": "Distributed Systems",
+    "pid": 1,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "BYAC 244",
+    "semester": "F25"
+  },
+  {
+    "cid": 4,
+    "name": "Artificial Intelligence",
+    "pid": 1,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "PSA 432",
+    "semester": "F25"
+  },
+  {
+    "cid": 5,
+    "name": "Algorithms",
+    "pid": 1,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "PSA 122",
+    "semester": "SP26"
+  },
+  {
+    "cid": 6,
+    "name": "Distributed Systems",
+    "pid": 1,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "ECG 112",
+    "semester": "SP26"
+  },
+  {
+    "cid": 7,
+    "name": "Databases",
+    "pid": 2,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "ECG 422",
+    "semester": "F25"
+  },
+  {
+    "cid": 8,
+    "name": "Cloud Computing",
+    "pid": 2,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "BYAC 224",
+    "semester": "F25"
+  },
+  {
+    "cid": 9,
+    "name": "Software Engineering",
+    "pid": 2,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "PSA 160",
+    "semester": "F25"
+  },
+  {
+    "cid": 10,
+    "name": "Web Development",
+    "pid": 2,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "BYAC 273",
+    "semester": "SP26"
+  },
+  {
+    "cid": 11,
+    "name": "Computer Graphics",
+    "pid": 2,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "GWC 367",
+    "semester": "SP26"
+  },
+  {
+    "cid": 12,
+    "name": "Compiler Design",
+    "pid": 2,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "PSA 271",
+    "semester": "SP26"
+  },
+  {
+    "cid": 13,
+    "name": "Algorithms",
+    "pid": 3,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "CTR 458",
+    "semester": "F25"
+  },
+  {
+    "cid": 14,
+    "name": "Algorithms",
+    "pid": 3,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "BYAC 212",
+    "semester": "F25"
+  },
+  {
+    "cid": 15,
+    "name": "Databases",
+    "pid": 3,
+    "time": "6:30-7:45",
+    "days": "T/Th",
+    "room": "GWC 307",
+    "semester": "SP26"
+  },
+  {
+    "cid": 16,
+    "name": "Compiler Design",
+    "pid": 3,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "PSA 264",
+    "semester": "SP26"
+  },
+  {
+    "cid": 17,
+    "name": "Software Engineering",
+    "pid": 4,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "ECG 279",
+    "semester": "F25"
+  },
+  {
+    "cid": 18,
+    "name": "Web Development",
+    "pid": 4,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "ENG 113",
+    "semester": "F25"
+  },
+  {
+    "cid": 19,
+    "name": "Algorithms",
+    "pid": 4,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "GWC 376",
+    "semester": "F25"
+  },
+  {
+    "cid": 20,
+    "name": "Quantum Computing",
+    "pid": 4,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "PSA 224",
+    "semester": "F25"
+  },
+  {
+    "cid": 21,
+    "name": "Compiler Design",
+    "pid": 4,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "CDL 320",
+    "semester": "SP26"
+  },
+  {
+    "cid": 22,
+    "name": "Quantum Computing",
+    "pid": 4,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "GWC 447",
+    "semester": "SP26"
+  },
+  {
+    "cid": 23,
+    "name": "Distributed Systems",
+    "pid": 5,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "BYAC 258",
+    "semester": "F25"
+  },
+  {
+    "cid": 24,
+    "name": "Operating Systems",
+    "pid": 5,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "ECG 185",
+    "semester": "F25"
+  },
+  {
+    "cid": 25,
+    "name": "Compiler Design",
+    "pid": 5,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "CTR 232",
+    "semester": "F25"
+  },
+  {
+    "cid": 26,
+    "name": "Data Structures",
+    "pid": 5,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "CTR 174",
+    "semester": "F25"
+  },
+  {
+    "cid": 27,
+    "name": "Quantum Computing",
+    "pid": 5,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "ENG 210",
+    "semester": "SP26"
+  },
+  {
+    "cid": 28,
+    "name": "Operating Systems",
+    "pid": 5,
+    "time": "3:30-4:45",
+    "days": "M/W",
+    "room": "ECG 157",
+    "semester": "SP26"
+  },
+  {
+    "cid": 29,
+    "name": "Cloud Computing",
+    "pid": 6,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "PSA 156",
+    "semester": "F25"
+  },
+  {
+    "cid": 30,
+    "name": "Cybersecurity",
+    "pid": 6,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "ECG 310",
+    "semester": "F25"
+  },
+  {
+    "cid": 31,
+    "name": "Operating Systems",
+    "pid": 6,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "BYAC 282",
+    "semester": "F25"
+  },
+  {
+    "cid": 32,
+    "name": "Networks",
+    "pid": 6,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "CTR 336",
+    "semester": "SP26"
+  },
+  {
+    "cid": 33,
+    "name": "Quantum Computing",
+    "pid": 6,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "CDL 430",
+    "semester": "SP26"
+  },
+  {
+    "cid": 34,
+    "name": "Data Structures",
+    "pid": 6,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "BYAC 484",
+    "semester": "SP26"
+  },
+  {
+    "cid": 35,
+    "name": "Operating Systems",
+    "pid": 7,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "GWC 285",
+    "semester": "F25"
+  },
+  {
+    "cid": 36,
+    "name": "Compiler Design",
+    "pid": 7,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "ENG 144",
+    "semester": "F25"
+  },
+  {
+    "cid": 37,
+    "name": "Compiler Design",
+    "pid": 7,
+    "time": "6:30-7:45",
+    "days": "T/Th",
+    "room": "ENG 362",
+    "semester": "F25"
+  },
+  {
+    "cid": 38,
+    "name": "Software Engineering",
+    "pid": 7,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "ECG 101",
+    "semester": "SP26"
+  },
+  {
+    "cid": 39,
+    "name": "Web Development",
+    "pid": 7,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "ECG 115",
+    "semester": "SP26"
+  },
+  {
+    "cid": 40,
+    "name": "Networks",
+    "pid": 7,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "ECG 124",
+    "semester": "SP26"
+  },
+  {
+    "cid": 41,
+    "name": "Software Engineering",
+    "pid": 8,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "CTR 222",
+    "semester": "F25"
+  },
+  {
+    "cid": 42,
+    "name": "Software Engineering",
+    "pid": 8,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "ENG 374",
+    "semester": "F25"
+  },
+  {
+    "cid": 43,
+    "name": "Algorithms",
+    "pid": 8,
+    "time": "6:30-7:45",
+    "days": "T/Th",
+    "room": "PSA 251",
+    "semester": "F25"
+  },
+  {
+    "cid": 44,
+    "name": "Artificial Intelligence",
+    "pid": 8,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "BYAC 312",
+    "semester": "F25"
+  },
+  {
+    "cid": 45,
+    "name": "Distributed Systems",
+    "pid": 8,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "ENG 497",
+    "semester": "SP26"
+  },
+  {
+    "cid": 46,
+    "name": "Computer Graphics",
+    "pid": 8,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "GWC 174",
+    "semester": "SP26"
+  },
+  {
+    "cid": 47,
+    "name": "Computer Graphics",
+    "pid": 8,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "CTR 128",
+    "semester": "SP26"
+  },
+  {
+    "cid": 48,
+    "name": "Databases",
+    "pid": 8,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "CTR 320",
+    "semester": "SP26"
+  },
+  {
+    "cid": 49,
+    "name": "Algorithms",
+    "pid": 9,
+    "time": "3:30-4:45",
+    "days": "M/W",
+    "room": "ECG 284",
+    "semester": "F25"
+  },
+  {
+    "cid": 50,
+    "name": "Quantum Computing",
+    "pid": 9,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "GWC 459",
+    "semester": "F25"
+  },
+  {
+    "cid": 51,
+    "name": "Machine Learning",
+    "pid": 9,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "CTR 220",
+    "semester": "F25"
+  },
+  {
+    "cid": 52,
+    "name": "Data Structures",
+    "pid": 9,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "CTR 127",
+    "semester": "F25"
+  },
+  {
+    "cid": 53,
+    "name": "Networks",
+    "pid": 9,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "GWC 123",
+    "semester": "SP26"
+  },
+  {
+    "cid": 54,
+    "name": "Networks",
+    "pid": 9,
+    "time": "6:30-7:45",
+    "days": "T/Th",
+    "room": "ENG 251",
+    "semester": "SP26"
+  },
+  {
+    "cid": 55,
+    "name": "Distributed Systems",
+    "pid": 9,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "GWC 479",
+    "semester": "SP26"
+  },
+  {
+    "cid": 56,
+    "name": "Machine Learning",
+    "pid": 10,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "PSA 186",
+    "semester": "F25"
+  },
+  {
+    "cid": 57,
+    "name": "Algorithms",
+    "pid": 10,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "BYAC 425",
+    "semester": "F25"
+  },
+  {
+    "cid": 58,
+    "name": "Databases",
+    "pid": 10,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "GWC 448",
+    "semester": "F25"
+  },
+  {
+    "cid": 59,
+    "name": "Distributed Systems",
+    "pid": 10,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "CTR 233",
+    "semester": "SP26"
+  },
+  {
+    "cid": 60,
+    "name": "Computer Graphics",
+    "pid": 10,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "CDL 226",
+    "semester": "SP26"
+  },
+  {
+    "cid": 61,
+    "name": "Quantum Computing",
+    "pid": 10,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "BYAC 453",
+    "semester": "SP26"
+  },
+  {
+    "cid": 62,
+    "name": "Compiler Design",
+    "pid": 10,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "ENG 245",
+    "semester": "SP26"
+  },
+  {
+    "cid": 63,
+    "name": "Compiler Design",
+    "pid": 11,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "GWC 352",
+    "semester": "F25"
+  },
+  {
+    "cid": 64,
+    "name": "Data Structures",
+    "pid": 11,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "CTR 449",
+    "semester": "F25"
+  },
+  {
+    "cid": 65,
+    "name": "Operating Systems",
+    "pid": 11,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "CTR 440",
+    "semester": "SP26"
+  },
+  {
+    "cid": 66,
+    "name": "Algorithms",
+    "pid": 11,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "GWC 468",
+    "semester": "SP26"
+  },
+  {
+    "cid": 67,
+    "name": "Distributed Systems",
+    "pid": 11,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "PSA 198",
+    "semester": "SP26"
+  },
+  {
+    "cid": 68,
+    "name": "Networks",
+    "pid": 11,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "CDL 390",
+    "semester": "SP26"
+  },
+  {
+    "cid": 69,
+    "name": "Web Development",
+    "pid": 12,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "ENG 257",
+    "semester": "F25"
+  },
+  {
+    "cid": 70,
+    "name": "Software Engineering",
+    "pid": 12,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "CDL 154",
+    "semester": "F25"
+  },
+  {
+    "cid": 71,
+    "name": "Networks",
+    "pid": 12,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "ECG 250",
+    "semester": "F25"
+  },
+  {
+    "cid": 72,
+    "name": "Web Development",
+    "pid": 12,
+    "time": "6:30-7:45",
+    "days": "T/Th",
+    "room": "GWC 406",
+    "semester": "F25"
+  },
+  {
+    "cid": 73,
+    "name": "Data Structures",
+    "pid": 12,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "GWC 116",
+    "semester": "SP26"
+  },
+  {
+    "cid": 74,
+    "name": "Quantum Computing",
+    "pid": 12,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "ECG 151",
+    "semester": "SP26"
+  },
+  {
+    "cid": 75,
+    "name": "Distributed Systems",
+    "pid": 12,
+    "time": "3:30-4:45",
+    "days": "M/W",
+    "room": "ENG 283",
+    "semester": "SP26"
+  },
+  {
+    "cid": 76,
+    "name": "Artificial Intelligence",
+    "pid": 13,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "ENG 470",
+    "semester": "F25"
+  },
+  {
+    "cid": 77,
+    "name": "Computer Graphics",
+    "pid": 13,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "PSA 445",
+    "semester": "F25"
+  },
+  {
+    "cid": 78,
+    "name": "Computer Graphics",
+    "pid": 13,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "CDL 490",
+    "semester": "SP26"
+  },
+  {
+    "cid": 79,
+    "name": "Compiler Design",
+    "pid": 13,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "CTR 254",
+    "semester": "SP26"
+  },
+  {
+    "cid": 80,
+    "name": "Algorithms",
+    "pid": 13,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "BYAC 219",
+    "semester": "SP26"
+  },
+  {
+    "cid": 81,
+    "name": "Artificial Intelligence",
+    "pid": 14,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "CTR 137",
+    "semester": "F25"
+  },
+  {
+    "cid": 82,
+    "name": "Machine Learning",
+    "pid": 14,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "CTR 115",
+    "semester": "F25"
+  },
+  {
+    "cid": 83,
+    "name": "Software Engineering",
+    "pid": 14,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "ENG 216",
+    "semester": "F25"
+  },
+  {
+    "cid": 84,
+    "name": "Machine Learning",
+    "pid": 14,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "CTR 467",
+    "semester": "SP26"
+  },
+  {
+    "cid": 85,
+    "name": "Algorithms",
+    "pid": 14,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "CDL 206",
+    "semester": "SP26"
+  },
+  {
+    "cid": 86,
+    "name": "Operating Systems",
+    "pid": 15,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "ECG 116",
+    "semester": "F25"
+  },
+  {
+    "cid": 87,
+    "name": "Artificial Intelligence",
+    "pid": 15,
+    "time": "3:30-4:45",
+    "days": "M/W",
+    "room": "ENG 349",
+    "semester": "F25"
+  },
+  {
+    "cid": 88,
+    "name": "Artificial Intelligence",
+    "pid": 15,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "ENG 115",
+    "semester": "SP26"
+  },
+  {
+    "cid": 89,
+    "name": "Operating Systems",
+    "pid": 15,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "ENG 347",
+    "semester": "SP26"
+  },
+  {
+    "cid": 90,
+    "name": "Compiler Design",
+    "pid": 15,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "CTR 249",
+    "semester": "SP26"
+  },
+  {
+    "cid": 91,
+    "name": "Software Engineering",
+    "pid": 16,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "CTR 345",
+    "semester": "F25"
+  },
+  {
+    "cid": 92,
+    "name": "Web Development",
+    "pid": 16,
+    "time": "3:30-4:45",
+    "days": "M/W",
+    "room": "CTR 396",
+    "semester": "F25"
+  },
+  {
+    "cid": 93,
+    "name": "Artificial Intelligence",
+    "pid": 16,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "CTR 335",
+    "semester": "F25"
+  },
+  {
+    "cid": 94,
+    "name": "Computer Graphics",
+    "pid": 16,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "GWC 344",
+    "semester": "SP26"
+  },
+  {
+    "cid": 95,
+    "name": "Databases",
+    "pid": 16,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "GWC 378",
+    "semester": "SP26"
+  },
+  {
+    "cid": 96,
+    "name": "Quantum Computing",
+    "pid": 17,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "ECG 436",
+    "semester": "F25"
+  },
+  {
+    "cid": 97,
+    "name": "Cybersecurity",
+    "pid": 17,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "ENG 460",
+    "semester": "F25"
+  },
+  {
+    "cid": 98,
+    "name": "Networks",
+    "pid": 17,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "ENG 373",
+    "semester": "F25"
+  },
+  {
+    "cid": 99,
+    "name": "Data Structures",
+    "pid": 17,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "CTR 238",
+    "semester": "SP26"
+  },
+  {
+    "cid": 100,
+    "name": "Software Engineering",
+    "pid": 17,
+    "time": "6:30-7:45",
+    "days": "M/W",
+    "room": "CTR 271",
+    "semester": "SP26"
+  },
+  {
+    "cid": 101,
+    "name": "Algorithms",
+    "pid": 18,
+    "time": "3:30-4:45",
+    "days": "M/W",
+    "room": "CTR 182",
+    "semester": "F25"
+  },
+  {
+    "cid": 102,
+    "name": "Compiler Design",
+    "pid": 18,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "GWC 167",
+    "semester": "F25"
+  },
+  {
+    "cid": 103,
+    "name": "Computer Graphics",
+    "pid": 18,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "CDL 317",
+    "semester": "F25"
+  },
+  {
+    "cid": 104,
+    "name": "Cybersecurity",
+    "pid": 18,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "ENG 199",
+    "semester": "SP26"
+  },
+  {
+    "cid": 105,
+    "name": "Quantum Computing",
+    "pid": 18,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "GWC 333",
+    "semester": "SP26"
+  },
+  {
+    "cid": 106,
+    "name": "Computer Graphics",
+    "pid": 19,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "ENG 221",
+    "semester": "F25"
+  },
+  {
+    "cid": 107,
+    "name": "Distributed Systems",
+    "pid": 19,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "ENG 456",
+    "semester": "F25"
+  },
+  {
+    "cid": 108,
+    "name": "Data Structures",
+    "pid": 19,
+    "time": "3:30-4:45",
+    "days": "T/Th",
+    "room": "CDL 202",
+    "semester": "SP26"
+  },
+  {
+    "cid": 109,
+    "name": "Artificial Intelligence",
+    "pid": 19,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "CDL 444",
+    "semester": "SP26"
+  },
+  {
+    "cid": 110,
+    "name": "Web Development",
+    "pid": 19,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "BYAC 424",
+    "semester": "SP26"
+  },
+  {
+    "cid": 111,
+    "name": "Computer Graphics",
+    "pid": 20,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "ECG 207",
+    "semester": "F25"
+  },
+  {
+    "cid": 112,
+    "name": "Computer Graphics",
+    "pid": 20,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "CDL 174",
+    "semester": "F25"
+  },
+  {
+    "cid": 113,
+    "name": "Data Structures",
+    "pid": 20,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "GWC 421",
+    "semester": "F25"
+  },
+  {
+    "cid": 114,
+    "name": "Operating Systems",
+    "pid": 20,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "ECG 353",
+    "semester": "F25"
+  },
+  {
+    "cid": 115,
+    "name": "Computer Graphics",
+    "pid": 20,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "GWC 188",
+    "semester": "SP26"
+  },
+  {
+    "cid": 116,
+    "name": "Compiler Design",
+    "pid": 20,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "CDL 482",
+    "semester": "SP26"
+  },
+  {
+    "cid": 117,
+    "name": "Computer Graphics",
+    "pid": 20,
+    "time": "2:00-3:15",
+    "days": "T/Th",
+    "room": "CTR 414",
+    "semester": "SP26"
+  },
+  {
+    "cid": 118,
+    "name": "Compiler Design",
+    "pid": 20,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "GWC 147",
+    "semester": "SP26"
+  },
+  {
+    "cid": 119,
+    "name": "Cybersecurity",
+    "pid": 21,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "ECG 340",
+    "semester": "F25"
+  },
+  {
+    "cid": 120,
+    "name": "Data Structures",
+    "pid": 21,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "ENG 471",
+    "semester": "F25"
+  },
+  {
+    "cid": 121,
+    "name": "Compiler Design",
+    "pid": 21,
+    "time": "8:00-9:15",
+    "days": "T/Th",
+    "room": "BYAC 463",
+    "semester": "SP26"
+  },
+  {
+    "cid": 122,
+    "name": "Machine Learning",
+    "pid": 21,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "GWC 242",
+    "semester": "SP26"
+  },
+  {
+    "cid": 123,
+    "name": "Algorithms",
+    "pid": 22,
+    "time": "2:00-3:15",
+    "days": "M/W",
+    "room": "GWC 446",
+    "semester": "F25"
+  },
+  {
+    "cid": 124,
+    "name": "Machine Learning",
+    "pid": 22,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "BYAC 351",
+    "semester": "F25"
+  },
+  {
+    "cid": 125,
+    "name": "Operating Systems",
+    "pid": 22,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "PSA 271",
+    "semester": "F25"
+  },
+  {
+    "cid": 126,
+    "name": "Databases",
+    "pid": 22,
+    "time": "12:30-1:45",
+    "days": "T/Th",
+    "room": "CDL 159",
+    "semester": "F25"
+  },
+  {
+    "cid": 127,
+    "name": "Databases",
+    "pid": 22,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "BYAC 310",
+    "semester": "SP26"
+  },
+  {
+    "cid": 128,
+    "name": "Algorithms",
+    "pid": 22,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "GWC 119",
+    "semester": "SP26"
+  },
+  {
+    "cid": 129,
+    "name": "Artificial Intelligence",
+    "pid": 22,
+    "time": "5:00-6:15",
+    "days": "M/W",
+    "room": "GWC 409",
+    "semester": "SP26"
+  },
+  {
+    "cid": 130,
+    "name": "Cloud Computing",
+    "pid": 22,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "GWC 435",
+    "semester": "SP26"
+  },
+  {
+    "cid": 131,
+    "name": "Web Development",
+    "pid": 23,
+    "time": "9:30-10:45",
+    "days": "T/Th",
+    "room": "GWC 405",
+    "semester": "F25"
+  },
+  {
+    "cid": 132,
+    "name": "Databases",
+    "pid": 23,
+    "time": "11:00-12:15",
+    "days": "M/W",
+    "room": "CTR 144",
+    "semester": "F25"
+  },
+  {
+    "cid": 133,
+    "name": "Networks",
+    "pid": 23,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "PSA 488",
+    "semester": "F25"
+  },
+  {
+    "cid": 134,
+    "name": "Distributed Systems",
+    "pid": 23,
+    "time": "6:30-7:45",
+    "days": "T/Th",
+    "room": "CTR 342",
+    "semester": "SP26"
+  },
+  {
+    "cid": 135,
+    "name": "Distributed Systems",
+    "pid": 23,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "ENG 239",
+    "semester": "SP26"
+  },
+  {
+    "cid": 136,
+    "name": "Cybersecurity",
+    "pid": 24,
+    "time": "5:00-6:15",
+    "days": "T/Th",
+    "room": "CDL 444",
+    "semester": "F25"
+  },
+  {
+    "cid": 137,
+    "name": "Artificial Intelligence",
+    "pid": 24,
+    "time": "12:30-1:45",
+    "days": "M/W",
+    "room": "CTR 461",
+    "semester": "F25"
+  },
+  {
+    "cid": 138,
+    "name": "Networks",
+    "pid": 24,
+    "time": "9:30-10:45",
+    "days": "M/W",
+    "room": "ENG 454",
+    "semester": "F25"
+  },
+  {
+    "cid": 139,
+    "name": "Cybersecurity",
+    "pid": 24,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "CDL 158",
+    "semester": "F25"
+  },
+  {
+    "cid": 140,
+    "name": "Databases",
+    "pid": 24,
+    "time": "11:00-12:15",
+    "days": "T/Th",
+    "room": "CTR 281",
+    "semester": "SP26"
+  },
+  {
+    "cid": 141,
+    "name": "Data Structures",
+    "pid": 24,
+    "time": "8:00-9:15",
+    "days": "M/W",
+    "room": "GWC 324",
+    "semester": "SP26"
+  }
+]

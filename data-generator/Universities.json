@@ -1,0 +1,25 @@
+[
+  {
+    "name": "ASU",
+    "uid": 1,
+    "schools": [
+      1
+    ]
+  },
+  {
+    "name": "SU",
+    "uid": 2,
+    "schools": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "MIT",
+    "uid": 3,
+    "schools": [
+      4,
+      5
+    ]
+  }
+]
