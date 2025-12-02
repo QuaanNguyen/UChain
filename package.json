@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
+    "deploy:contract": "node scripts/deployContract.js",
+    "migrate": "node scripts/migrate_enrollments.js",
+    "migrate:db": "node scripts/migrate_to_mongodb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
