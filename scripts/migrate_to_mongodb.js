@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 const MONGO_URI = process.env.MONGO_URI;
 if (!MONGO_URI) {
-    console.error("❌ MONGO_URI environment variable is required. Please set it in your .env file.");
+    console.error("MONGO_URI environment variable is required. Please set it in your .env file.");
     process.exit(1);
 }
 
@@ -90,9 +90,9 @@ const Advisor = mongoose.model('Advisor', advisorSchema);
 
 async function migrateData() {
     try {
-        console.log("🔌 Connecting to MongoDB Atlas...");
+        console.log("Connecting to MongoDB Atlas...");
         await mongoose.connect(MONGO_URI);
-        console.log("✅ Connected to MongoDB Atlas");
+        console.log("Connected to MongoDB Atlas");
 
         const dataPath = path.resolve(__dirname, '../data-generator');
 
@@ -105,9 +105,9 @@ async function migrateData() {
         const universities = JSON.parse(fs.readFileSync(path.join(dataPath, 'Universities.json'), 'utf8'));
         const advisors = JSON.parse(fs.readFileSync(path.join(dataPath, 'Advisors.json'), 'utf8'));
 
-        console.log("📄 Read all JSON files");
+        console.log("Read all JSON files");
 
-        console.log("🗑️  Clearing existing collections...");
+        console.log("Clearing existing collections...");
         await Student.deleteMany({});
         await Enrollment.deleteMany({});
         await Class.deleteMany({});
@@ -117,43 +117,43 @@ async function migrateData() {
         await University.deleteMany({});
         await Advisor.deleteMany({});
 
-        console.log("📤 Uploading data to MongoDB Atlas...");
+        console.log("Uploading data to MongoDB Atlas...");
 
         await University.insertMany(universities);
-        console.log(`✅ Uploaded ${universities.length} universities`);
+        console.log(`Uploaded ${universities.length} universities`);
 
         await School.insertMany(schools);
-        console.log(`✅ Uploaded ${schools.length} schools`);
+        console.log(`Uploaded ${schools.length} schools`);
 
         await Department.insertMany(departments);
-        console.log(`✅ Uploaded ${departments.length} departments`);
+        console.log(`Uploaded ${departments.length} departments`);
 
         await Advisor.insertMany(advisors);
-        console.log(`✅ Uploaded ${advisors.length} advisors`);
+        console.log(`Uploaded ${advisors.length} advisors`);
 
         await Professor.insertMany(professors);
-        console.log(`✅ Uploaded ${professors.length} professors`);
+        console.log(`Uploaded ${professors.length} professors`);
 
         await Class.insertMany(classes);
-        console.log(`✅ Uploaded ${classes.length} classes`);
+        console.log(`Uploaded ${classes.length} classes`);
 
         await Enrollment.insertMany(enrollments);
-        console.log(`✅ Uploaded ${enrollments.length} enrollments`);
+        console.log(`Uploaded ${enrollments.length} enrollments`);
 
         await Student.insertMany(students);
-        console.log(`✅ Uploaded ${students.length} students`);
+        console.log(`Uploaded ${students.length} students`);
 
-        console.log("\n🎉 Migration complete!");
+        console.log("\nMigration complete!");
         console.log(`Total documents uploaded: ${universities.length + schools.length + departments.length +
             advisors.length + professors.length + classes.length +
             enrollments.length + students.length
             }`);
 
     } catch (error) {
-        console.error("❌ Migration error:", error);
+        console.error("Migration error:", error);
     } finally {
         await mongoose.disconnect();
-        console.log("🔌 Disconnected from MongoDB");
+        console.log("Disconnected from MongoDB");
     }
 }
 

@@ -10,6 +10,10 @@ import csv from "csvtojson";
 import { fileURLToPath } from "url";
 import { createRequire } from "module";
 
+// Route imports
+import studentRoutes from "./routes/studentRoutes.js";
+import enrollmentRoutes from "./routes/enrollmentRoutes.js";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -24,8 +28,8 @@ app.use(express.static(path.join(__dirname, "../frontend")));
 const mongoURI = process.env.MONGO_URI;
 mongoose
   .connect(mongoURI)
-  .then(() => console.log("✅ MongoDB Connected"))
-  .catch((err) => console.error("❌ MongoDB Connection Error:", err.message));
+  .then(() => console.log("MongoDB Connected"))
+  .catch((err) => console.error("MongoDB Connection Error:", err.message));
 
 // Mongoose models
 const feeSchema = new mongoose.Schema({
@@ -43,7 +47,7 @@ const enrollmentSchema = new mongoose.Schema(
     cid: Number,       // class id
     grade: String,
     status: String,
-    eidHash: String,   // optional: hash stored on-chain / block-utils
+    enrollmentHash: String,   // optional: hash stored on-chain / block-utils
   },
   {
     collection: "enrollments", // use existing collection name
@@ -65,20 +69,19 @@ try {
     }
   }
 } catch (err) {
-  console.warn("⚠️  Blockchain setup incomplete:", err.message);
+  console.warn("Blockchain setup incomplete:", err.message);
 }
 
 const upload = multer({ dest: "uploads/" });
 const require = createRequire(import.meta.url);
 const { toBlock, fromBlock } = require("../blockchain/blockchain-tools/block-utils.js");
 
-import studentRoutes from "./routes/studentRoutes.js";
-
 app.use("/api/student", studentRoutes);
+app.use("/api/enrollments", enrollmentRoutes);
 
 // GET / - Health check
 app.get("/", (req, res) => {
-  res.send("Server is running ✅");
+  res.send("Server is running");
 });
 
 // GET /api/enrollments - Get all enrollments
@@ -87,7 +90,7 @@ app.get("/api/enrollments", async (req, res) => {
     const data = await Enrollment.find().limit(1000);
     res.json({ success: true, count: data.length, data });
   } catch (err) {
-    console.error("❌ Enrollment fetch error:", err);
+    console.error("Enrollment fetch error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -106,7 +109,7 @@ app.post("/api/enrollments/push-to-blockchain", async (req, res) => {
     for (let enr of enrollments) {
       const hash = toBlock([enr], [])[0].eid;
 
-      enr.eidHash = hash;
+      enr.enrollmentHash = hash;
       await enr.save();
 
       updatedEnrollments.push({ eid: enr.eid, hash });
@@ -119,7 +122,7 @@ app.post("/api/enrollments/push-to-blockchain", async (req, res) => {
       data: updatedEnrollments,
     });
   } catch (err) {
-    console.error("❌ Enrollment blockchain upload error:", err);
+    console.error("Enrollment blockchain upload error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -154,7 +157,7 @@ app.post("/api/pay-fee", async (req, res) => {
       mongoId: feeDoc._id,
     });
   } catch (err) {
-    console.error("❌ Pay fee error:", err);
+    console.error("Pay fee error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -165,7 +168,7 @@ app.get("/api/fees", async (req, res) => {
     const fees = await Fee.find().sort({ timestamp: -1 });
     res.json({ success: true, count: fees.length, data: fees });
   } catch (err) {
-    console.error("❌ Fees fetch error:", err);
+    console.error("Fees fetch error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -177,7 +180,7 @@ app.post("/api/import-csv", upload.single("file"), async (req, res) => {
     await Fee.insertMany(jsonArray);
     res.json({ success: true, message: "CSV imported" });
   } catch (err) {
-    console.error("❌ CSV error:", err);
+    console.error("CSV error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -189,7 +192,7 @@ app.post("/api/create-table", async (req, res) => {
     await mongoose.connection.createCollection(name);
     res.json({ success: true, message: `${name} table created` });
   } catch (err) {
-    console.error("❌ Create table error:", err);
+    console.error("Create table error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -202,7 +205,7 @@ app.get("/api/tables", async (req, res) => {
       .toArray();
     res.json({ success: true, data: collections });
   } catch (err) {
-    console.error("❌ List tables error:", err);
+    console.error("List tables error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -224,12 +227,12 @@ app.get("/api/blockchain-data", async (req, res) => {
     }
     res.json({ success: true, data: blocks });
   } catch (err) {
-    console.error("❌ Blockchain error:", err);
+    console.error("Blockchain error:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
 const PORT = process.env.PORT || 5050;
 app.listen(PORT, "0.0.0.0", () =>
-  console.log(`🚀 Server running on http://localhost:${PORT}`)
+  console.log(`Server running on http://localhost:${PORT}`)
 );

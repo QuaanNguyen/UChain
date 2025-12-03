@@ -82,7 +82,7 @@ def test_data_consistency(contract, students_data, enrollments_data):
             found = True
             break
     assert found, f"On-chain data for hash {current_hash} not found in MongoDB enrollments"
-    print(f"✅ Data consistency verified for student {student['stid']}")
+    print(f"Data consistency verified for student {student['stid']}")
 
 def test_mongodb_blockchain_integrity(contract, students_data, enrollments_data):
     tested_count = 0
@@ -96,7 +96,7 @@ def test_mongodb_blockchain_integrity(contract, students_data, enrollments_data)
                 assert mongo_enr['grade'] == oc_grade, f"Grade mismatch for enrollment"
                 assert mongo_enr['status'] == oc_status, f"Status mismatch for enrollment"
                 tested_count += 1
-    print(f"✅ Verified {tested_count} enrollment hashes between MongoDB and blockchain")
+    print(f"Verified {tested_count} enrollment hashes between MongoDB and blockchain")
     assert tested_count > 0, "No enrollments were tested"
 
 if __name__ == "__main__":

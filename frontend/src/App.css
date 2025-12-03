@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+    background: linear-gradient(135deg, #fff4e6 0%, #ffe4cc 100%);
     min-height: 100vh;
 }
 
@@ -17,6 +17,7 @@ body {
     padding: 20px;
 }
 
+/* Background Icons */
 .icon-background {
     position: fixed;
     top: 0;
@@ -25,23 +26,16 @@ body {
     height: 100%;
     z-index: 0;
     pointer-events: none;
-    opacity: 0.25;
+    opacity: 0.15;
 }
 
 .academic-icon {
     position: absolute;
     font-size: 60px;
-    color: #8C1D40;
-    padding: 12px;
-    background: rgba(255, 255, 255, 0.9);
-    border: 2px solid #FFC627;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(140, 29, 64, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #d97706;
 }
 
+/* Main Container */
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -55,26 +49,25 @@ header {
 }
 
 h1 {
-    color: #8C1D40;
+    color: #d97706;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
 .subtitle {
-    color: #8C1D40;
+    color: #92400e;
     font-size: 16px;
-    opacity: 0.8;
 }
 
+/* Search Form */
 .search-form {
     background: white;
     border-radius: 20px;
     padding: 32px;
-    box-shadow: 0 10px 40px rgba(140, 29, 64, 0.15);
+    box-shadow: 0 10px 40px rgba(217, 119, 6, 0.1);
     max-width: 500px;
     margin: 0 auto 32px;
-    border: 2px solid #FFC627;
 }
 
 .input-group {
@@ -83,7 +76,7 @@ h1 {
 
 label {
     display: block;
-    color: #8C1D40;
+    color: #78350f;
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 8px;
@@ -92,25 +85,23 @@ label {
 input[type="number"] {
     width: 100%;
     padding: 14px 18px;
-    border: 2px solid #FFC627;
+    border: 2px solid #fed7aa;
     border-radius: 12px;
     font-size: 16px;
     transition: all 0.3s ease;
-    background: #fff;
-    color: #8C1D40;
+    background: #fef3c7;
 }
 
 input:focus {
     outline: none;
-    border-color: #8C1D40;
-    background: #fff;
-    box-shadow: 0 0 0 3px rgba(140, 29, 64, 0.1);
+    border-color: #d97706;
+    background: white;
 }
 
 button {
     width: 100%;
     padding: 16px;
-    background: linear-gradient(135deg, #8C1D40 0%, #6B152E 100%);
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
     color: white;
     border: none;
     border-radius: 12px;
@@ -122,7 +113,7 @@ button {
 
 button:hover:not(:disabled) {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(140, 29, 64, 0.4);
+    box-shadow: 0 8px 24px rgba(217, 119, 6, 0.3);
 }
 
 button:active:not(:disabled) {
@@ -134,6 +125,42 @@ button:disabled {
     cursor: not-allowed;
 }
 
+/* Syncing Status */
+.syncing-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+    background: #e0f2fe;
+    border: 2px solid #0ea5e9;
+    border-radius: 12px;
+    margin: 0 auto 24px;
+    max-width: 400px;
+    font-weight: 600;
+    color: #075985;
+}
+
+.spinner {
+    border: 3px solid #bae6fd;
+    border-top: 3px solid #0ea5e9;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Split Layout Container */
 .student-data-container {
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -141,18 +168,17 @@ button:disabled {
     background: white;
     border-radius: 24px;
     overflow: hidden;
-    box-shadow: 0 20px 60px rgba(140, 29, 64, 0.2);
+    box-shadow: 0 20px 60px rgba(217, 119, 6, 0.15);
     max-height: calc(100vh - 320px);
-    border: 2px solid #FFC627;
 }
 
+/* Left Panel - Fixed */
 .left-panel {
-    background: linear-gradient(135deg, #fff 0%, #f8f8f8 100%);
+    background: #fef3c7;
     padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    border-right: 2px solid #FFC627;
 }
 
 .student-header {
@@ -160,7 +186,7 @@ button:disabled {
     align-items: center;
     gap: 16px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #FFC627;
+    border-bottom: 2px solid #fde68a;
 }
 
 .student-icon {
@@ -168,16 +194,15 @@ button:disabled {
 }
 
 .student-header h2 {
-    color: #8C1D40;
+    color: #78350f;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 4px;
 }
 
 .email {
-    color: #8C1D40;
+    color: #92400e;
     font-size: 14px;
-    opacity: 0.7;
 }
 
 .info-grid {
@@ -192,8 +217,6 @@ button:disabled {
     gap: 12px;
     padding: 14px;
     background: white;
-    border: 2px solid;
-    border-color: #8C1D40;
     border-radius: 12px;
 }
 
@@ -203,27 +226,19 @@ button:disabled {
 
 .info-label {
     font-weight: 600;
-    color: #8C1D40;
+    color: #92400e;
     font-size: 13px;
 }
 
 .info-value {
-    color: #8C1D40;
+    color: #78350f;
     font-size: 14px;
     margin-top: 2px;
-    opacity: 0.9;
 }
 
 .verify-button {
-    background: linear-gradient(135deg, #FFC627 0%, #FFB81C 100%);
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
     margin-top: auto;
-    color: #8C1D40;
-    font-weight: 700;
-}
-
-.verify-button:hover:not(:disabled) {
-    background: linear-gradient(135deg, #FFB81C 0%, #FFC627 100%);
-    box-shadow: 0 8px 24px rgba(255, 198, 39, 0.4);
 }
 
 .verification-result {
@@ -246,16 +261,17 @@ button:disabled {
     border: 2px solid #fca5a5;
 }
 
+/* Right Panel - Scrollable */
 .right-panel {
     padding: 32px;
     overflow-y: auto;
     max-height: calc(100vh - 320px);
 }
 
-.section-title {
-    color: #8C1D40;
-    font-size: 20px;
-    font-weight: 700;
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
     position: sticky;
     top: 0;
@@ -264,6 +280,69 @@ button:disabled {
     z-index: 1;
 }
 
+.section-title {
+    color: #78350f;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.add-button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+/* Enrollment Form */
+.enrollment-form {
+    background: #fef3c7;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #fde68a;
+}
+
+.enrollment-form h4 {
+    color: #78350f;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.enrollment-form select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #fed7aa;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    background: white;
+    cursor: pointer;
+}
+
+.enrollment-form select:focus {
+    outline: none;
+    border-color: #d97706;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.form-buttons button {
+    width: auto;
+    flex: 1;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.form-buttons button:last-child {
+    background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+}
+
+/* Transcript List */
 .transcript-list {
     display: flex;
     flex-direction: column;
@@ -271,35 +350,35 @@ button:disabled {
 }
 
 .transcript-item {
-    background: linear-gradient(135deg, #fff 0%, #f8f8f8 100%);
+    background: #fef3c7;
     padding: 16px;
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: transform 0.2s ease;
-    border: 1px solid #FFC627;
-    cursor: default;
 }
 
 .transcript-item:hover {
     transform: translateX(4px);
-    box-shadow: 0 4px 12px rgba(140, 29, 64, 0.1);
 }
 
 .class-name {
     font-weight: 600;
-    color: #8C1D40;
+    color: #78350f;
     font-size: 15px;
     margin-bottom: 4px;
-    cursor: default;
 }
 
 .class-info {
     font-size: 13px;
-    color: #8C1D40;
-    opacity: 0.7;
-    cursor: default;
+    color: #92400e;
+}
+
+.transcript-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .grade {
@@ -331,6 +410,24 @@ button:disabled {
     color: #991b1b;
 }
 
+.grade-ng {
+    background: #e5e7eb;
+    color: #4b5563;
+}
+
+.edit-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
 @media (max-width: 1024px) {
     .student-data-container {
         grid-template-columns: 1fr;

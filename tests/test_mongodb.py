@@ -22,7 +22,7 @@ def db(mongo_client):
 def test_mongodb_connection(mongo_client):
     try:
         mongo_client.admin.command('ping')
-        print("✅ Successfully connected to MongoDB Atlas")
+        print("Successfully connected to MongoDB Atlas")
         assert True
     except Exception as e:
         pytest.fail(f"Failed to connect to MongoDB: {e}")
@@ -35,13 +35,13 @@ def test_collections_exist(db):
     collection_names = db.list_collection_names()
     for collection in required_collections:
         assert collection in collection_names, f"Collection '{collection}' not found"
-        print(f"✅ Collection '{collection}' exists")
+        print(f"Collection '{collection}' exists")
 
 def test_students_data(db):
     students = db.students
     count = students.count_documents({})
     assert count > 0, "Students collection is empty"
-    print(f"✅ Found {count} students in database")
+    print(f"Found {count} students in database")
     sample = students.find_one()
     assert 'stid' in sample, "Student record missing 'stid' field"
     assert 'firstName' in sample
@@ -49,20 +49,20 @@ def test_students_data(db):
     assert 'email' in sample
     assert 'enrollments' in sample
     assert 'currentHash' in sample
-    print(f"✅ Student record structure verified")
+    print(f"Student record structure verified")
 
 def test_enrollments_data(db):
     enrollments = db.enrollments
     count = enrollments.count_documents({})
     assert count > 0, "Enrollments collection is empty"
-    print(f"✅ Found {count} enrollments in database")
+    print(f"Found {count} enrollments in database")
     sample = enrollments.find_one()
     assert 'eid' in sample
     assert 'sid' in sample
     assert 'cid' in sample
     assert 'grade' in sample
     assert 'status' in sample
-    print(f"✅ Enrollment record structure verified")
+    print(f"Enrollment record structure verified")
 
 def test_data_integrity(db):
     students = db.students
@@ -73,27 +73,27 @@ def test_data_integrity(db):
         enrollment_hashes = student.get('enrollments', [])
         if current_hash:
             assert current_hash in enrollment_hashes, "currentHash not found in enrollments array"
-            print(f"✅ Data integrity verified for student {student.get('stid')}")
+            print(f"Data integrity verified for student {student.get('stid')}")
     else:
-        print("⚠️  No students with enrollments found for integrity test")
+        print("No students with enrollments found for integrity test")
 
 def test_classes_data(db):
     classes = db.classes
     count = classes.count_documents({})
     assert count > 0, "Classes collection is empty"
-    print(f"✅ Found {count} classes in database")
+    print(f"Found {count} classes in database")
 
 def test_professors_data(db):
     professors = db.professors
     count = professors.count_documents({})
     assert count > 0, "Professors collection is empty"
-    print(f"✅ Found {count} professors in database")
+    print(f"Found {count} professors in database")
 
 def test_departments_data(db):
     departments = db.departments
     count = departments.count_documents({})
     assert count > 0, "Departments collection is empty"
-    print(f"✅ Found {count} departments in database")
+    print(f"Found {count} departments in database")
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

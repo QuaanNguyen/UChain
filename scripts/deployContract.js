@@ -20,35 +20,35 @@ async function checkSetup() {
 
     const isConnected = await web3.eth.net.isListening();
     if (!isConnected) {
-      console.error("❌ Cannot connect to Ganache at", process.env.GANACHE_RPC);
-      console.error("\n💡 Make sure Ganache is running:");
+      console.error("Cannot connect to Ganache at", process.env.GANACHE_RPC);
+      console.error("\nMake sure Ganache is running:");
       console.error(
         "   npx ganache --port 8545 --quiet --miner.blockGasLimit 100000000"
       );
       process.exit(1);
     }
 
-    console.log("✅ Ganache is running");
+    console.log("Ganache is running");
 
     const deploymentPath = path.resolve(__dirname, "../deployment.json");
     if (fs.existsSync(deploymentPath)) {
       const deployment = JSON.parse(fs.readFileSync(deploymentPath, "utf8"));
-      console.log("✅ deployment.json exists");
-      console.log("📍 Contract address:", deployment.address);
+      console.log("deployment.json exists");
+      console.log("Contract address:", deployment.address);
 
       // Verify contract can be instantiated
       const contract = new web3.eth.Contract(
         deployment.abi,
         deployment.address
       );
-      console.log("✅ Contract ABI loaded successfully");
+      console.log("Contract ABI loaded successfully");
     } else {
-      console.warn("⚠️  deployment.json not found");
-      console.log("\n💡 To deploy the contract and migrate enrollments, run:");
+      console.warn("deployment.json not found");
+      console.log("\nTo deploy the contract and migrate enrollments, run:");
       console.log("   npm run migrate");
     }
   } catch (error) {
-    console.error("❌ Error:", error.message);
+    console.error("Error:", error.message);
     process.exit(1);
   }
 }

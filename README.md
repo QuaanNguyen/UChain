@@ -73,20 +73,37 @@ GANACHE_RPC=http://127.0.0.1:8545
 PORT=5050
 ```
 
-### 4. Setup Blockchain
+### 4. Setup Blockchain (Local Development)
 
-1. Start Ganache on `http://127.0.0.1:8545`, sample cmd:
-   ```bash
-   npx ganache --port 8545 --quiet --miner.blockGasLimit 100000000              
-   ```
-3. Deploy the contract:
-   ```bash
-   node scripts/migrate_enrollments.js
-   ```
-   This will:
-   - Compile and deploy the `EnrollmentRegistry` contract
-   - Store enrollments on the blockchain
-   - Update `deployment.json` with contract address and ABI
+**Step 1: Start Ganache**
+
+Open a terminal and run (keep it running):
+```bash
+npx ganache --port 8545 --quiet --miner.blockGasLimit 100000000
+```
+
+**Step 2: Deploy Contract and Migrate Enrollments**
+
+In a **new terminal**, run:
+```bash
+npm run migrate
+# Or: node scripts/migrate_enrollments.js
+```
+
+This will:
+- Compile and deploy the `EnrollmentRegistry` contract
+- Store enrollments on the blockchain
+- Update `deployment.json` with contract address and ABI
+- Update student enrollment hashes
+
+**Step 3: (Optional) Populate Enrollment Hashes**
+
+If you need to sync existing enrollment hashes:
+```bash
+node scripts/populate_enrollment_hashes.js
+```
+
+**Note:** Ganache must be running before running migration scripts or starting the backend.
 
 ### 5. Setup Database
 

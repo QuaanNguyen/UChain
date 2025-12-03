@@ -34,6 +34,7 @@ const enrollmentSchema = new mongoose.Schema(
     cid: Number,
     grade: String,
     status: String,
+    enrollmentHash: String,
   },
   { collection: "enrollments" }
 );
@@ -111,18 +112,18 @@ const web3 = new Web3(
 let contract = null;
 try {
   const deploymentPath = path.resolve(__dirname, "../../deployment.json");
-  console.log("📋 Looking for deployment.json at:", deploymentPath);
+  console.log("Looking for deployment.json at:", deploymentPath);
 
   if (fs.existsSync(deploymentPath)) {
     const deployment = JSON.parse(fs.readFileSync(deploymentPath, "utf8"));
-    console.log("✅ Found deployment.json");
+    console.log("Found deployment.json");
     contract = new web3.eth.Contract(deployment.abi, deployment.address);
-    console.log("✅ Contract loaded:", deployment.address);
+    console.log("Contract loaded:", deployment.address);
   } else {
-    console.warn("⚠️  Deployment.json not found at", deploymentPath);
+    console.warn("Deployment.json not found at", deploymentPath);
   }
 } catch (err) {
-  console.warn("⚠️  Error loading deployment.json:", err.message);
+  console.warn("Error loading deployment.json:", err.message);
 }
 
 // GET /api/student/:stid - Get student information with transcripts
@@ -179,7 +180,7 @@ router.get("/:stid", async (req, res) => {
       transcripts,
     });
   } catch (err) {
-    console.error("❌ Error fetching student:", err);
+    console.error("Error fetching student:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -371,7 +372,7 @@ router.post("/verify-transcript", async (req, res) => {
 
         if (!dataMatches) allValid = false;
       } catch (error) {
-        console.error(`❌ Error verifying hash ${hash}:`, error.message);
+        console.error(`Error verifying hash ${hash}:`, error.message);
         verificationResults.push({
           hash: hash,
           valid: false,
@@ -383,7 +384,7 @@ router.post("/verify-transcript", async (req, res) => {
 
     const validCount = verificationResults.filter((r) => r.valid).length;
     console.log(
-      `✅ Verification complete for student ${studentId}: ${validCount}/${student.enrollments.length} verified`
+      `Verification complete for student ${studentId}: ${validCount}/${student.enrollments.length} verified`
     );
 
     res.json({
@@ -395,7 +396,7 @@ router.post("/verify-transcript", async (req, res) => {
       results: verificationResults,
     });
   } catch (err) {
-    console.error("❌ Error verifying transcript:", err);
+    console.error("Error verifying transcript:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });

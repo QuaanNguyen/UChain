@@ -14,7 +14,7 @@ const enrollmentSchema = new mongoose.Schema(
     cid: { type: String, required: true },
     grade: { type: String, default: null },
     status: { type: String, default: null },
-    eidHash: { type: String, default: null },
+    enrollmentHash: { type: String, default: null },
   },
   {
     collection: "enrollments",
@@ -35,7 +35,7 @@ router.get("/", async (req, res) => {
       data: enrollments,
     });
   } catch (err) {
-    console.error("❌ Error fetching enrollments:", err);
+    console.error("Error fetching enrollments:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });
@@ -55,7 +55,7 @@ router.post("/push-to-blockchain", async (req, res) => {
     for (let enr of enrollments) {
       const result = toBlock([enr]);
       const hash = result[0].hash;
-      enr.eidHash = hash;
+      enr.enrollmentHash = hash;
       await enr.save();
 
       updated.push({
@@ -63,7 +63,7 @@ router.post("/push-to-blockchain", async (req, res) => {
         cid: enr.cid,
         grade: enr.grade,
         status: enr.status,
-        eidHash: hash,
+        enrollmentHash: hash,
       });
     }
 
@@ -74,7 +74,7 @@ router.post("/push-to-blockchain", async (req, res) => {
       data: updated,
     });
   } catch (err) {
-    console.error("❌ Error pushing enrollments to blockchain:", err);
+    console.error("Error pushing enrollments to blockchain:", err);
     res.status(500).json({ success: false, error: err.message });
   }
 });

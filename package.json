@@ -7,9 +7,10 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "deploy:contract": "node scripts/deployContract.js",
+    "ganache": "npx ganache --port 8545 --quiet --miner.blockGasLimit 100000000",
     "migrate": "node scripts/migrate_enrollments.js",
     "migrate:db": "node scripts/migrate_to_mongodb.js",
+    "populate:hashes": "node scripts/populate_enrollment_hashes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
